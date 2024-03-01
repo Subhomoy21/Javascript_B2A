@@ -19,4 +19,12 @@ let state = null // empty
 // boolean => true/false 
 // null(stand alone value in js)
 // undefined => when the value is not assigned
+// symbol => react ke liye useful to find uniqueness..
+
+//object
+
+console.log(typeof"Subhomoy"); // string
+console.log(typeof age); // integer
+console.log(typeof null); // null ek object 
+console.log(typeof undefined) // undefined
 
