@@ -28,4 +28,10 @@ console.log(Math.min(4,3,6,9)); // 3
 console.log(Math.max(4,6,8,9)); //9
 
 console.log(Math.random()); // hamesha 0 se 1 ke bicch ke values
-console.log(Math.random)
+console.log((Math.random()*10) + 1);
+console.log(Math.floor(Math.random()*10) + 1);
+
+// important concept(****)
+const min = 10;
+const max = 20;
+console.log(Math.floor(Math.random()* (max-min + 1)) + min);
